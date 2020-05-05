@@ -8,10 +8,10 @@
 
 <ion-content padding>
   <ion-list>
-    <ion-item>Maria</ion-item>
-    <ion-item>João</ion-item>
-    <ion-item>Ricardo</ion-item>
-    <ion-item>Ana</ion-item>
-    <ion-item>Pedro</ion-item>
+    <ion-item *ngFor="let contato of contatos">
+      <h2>{{contato.nome}}</h2>
+      <p>{{contato.telefone}}</p>
+      <p>{{contato.email}}</p>
+    </ion-item>
   </ion-list>
 </ion-content>
