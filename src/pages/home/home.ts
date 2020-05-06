@@ -12,11 +12,11 @@ export class HomePage {
 
   constructor(public navCtrl: NavController, private toastCtrl: ToastController) {
     this.contatos = [
-      {nome: "Fulano de Tal", email: "fulanodetal@email.com", telefone: 999999999},
-      {nome: "Beltrano", email: "beltrano@email.com", telefone: 123454648},
-      {nome: "José", email: "jose@email.com", telefone: 999999599},
-      {nome: "Maria", email: "maria@email.com", telefone: 999999333},
-      {nome: "Sicrano", email: "sicrano@email.com", telefone: 999499999},
+      {nome: "Fulano de Tal", email: "fulanodetal@bol.com.br", telefone: 31999999999},
+      {nome: "Beltrano", email: "beltrano@gmail.com", telefone: 32123454648},
+      {nome: "Sicrano", email: "sicrano@yahoo.com.br", telefone: 11987654321},
+      {nome: "José", email: "jose@gmail.com", telefone: 31999999599},
+      {nome: "Maria", email: "maria@hotmail.com", telefone: 21999999333}
     ];
   }
 

@@ -14,7 +14,7 @@ export class PaginaLoginPage {
   passwordInput: String;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private alertController: AlertController) {
-    this.username = 'ciclano';
+    this.username = 'sicrano';
     this.password = 'querocafe';
   }
 
