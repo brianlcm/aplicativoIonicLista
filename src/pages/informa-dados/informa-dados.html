@@ -11,5 +11,11 @@
 
 
 <ion-content padding>
-
+  <ion-row justify-content-center>
+    <ion-item *ngIf="emailAdicionado!=null">
+      <p><b>Telefone:</b> {{emailAdicionado}}</p>
+      <p><b>E-Mail:</b> {{telefoneAdicionado}}</p>
+    </ion-item>
+    <button ion-button (click)="abreAlertController()">Informe seus dados</button>
+  </ion-row>
 </ion-content>
