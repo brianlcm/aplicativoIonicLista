@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { InformaDadosPage } from '../pages/informa-dados/informa-dados';
 import { PaginaLoginPage } from '../pages/pagina-login/pagina-login';
 import { BoasVindasPage } from '../pages/boas-vindas/boas-vindas';
+import { DemonstraBadgesPage } from '../pages/demonstra-badges/demonstra-badges';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { BoasVindasPage } from '../pages/boas-vindas/boas-vindas';
     HomePage,
     InformaDadosPage,
     PaginaLoginPage,
-    BoasVindasPage
+    BoasVindasPage,
+    DemonstraBadgesPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +31,8 @@ import { BoasVindasPage } from '../pages/boas-vindas/boas-vindas';
     HomePage,
     InformaDadosPage,
     PaginaLoginPage,
-    BoasVindasPage
+    BoasVindasPage,
+    DemonstraBadgesPage
   ],
   providers: [
     StatusBar,
